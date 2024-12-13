@@ -1,0 +1,122 @@
+.example-container-wrapper {
+  display: flex; /* Align containers side by side */
+}
+
+.example-container {
+  width: 30%; /* Set width to a smaller percentage */
+
+  padding: 16px;
+  background-color: #f9f9f9;
+  margin-right: 16px; /* Add spacing if there are multiple containers */
+  box-sizing: border-box;
+  margin-top: 50px;
+  margin-left: 16px;
+}
+
+.example-container2 {
+  width: 70%;
+  padding: 16px;
+  background-color: #f9f9f9;
+  margin-right: 16px; /* Add spacing if there are multiple containers */
+  box-sizing: border-box;
+  margin-top: 50px;
+}
+
+.example-list {
+  border: 1px solid #ccc;
+  min-height: 200px;
+  padding: 8px;
+  background: #f9f9f9;
+}
+
+.example-list2 {
+  border: 1px solid #ccc;
+  min-height: 200px;
+  padding: 8px;
+  background: #f9f9f9;
+  margin-top: 45px;
+}
+
+.done-list {
+  border: 2px solid #ccc; /* Bold dashed border for "done" */
+}
+
+.example-box {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  margin-bottom: 4px;
+  border: 1px solid #ccc;
+  background: #f0f0f0;
+  border-radius: 4px;
+}
+
+.example-box mat-icon {
+  margin-right: 8px;
+  color: #757575; /* Optional: Color for the icon */
+}
+
+.form-input {
+  width: 200px; /* Set a fixed width for the input to make it shorter horizontally */
+  height: 50px; /* Set a height to make the input longer vertically */
+  padding: 10px; /* Add padding for vertical space */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.form-input:focus {
+  border-color: #3f51b5; /* Highlight border color on focus */
+  box-shadow: 0 0 5px rgba(63, 81, 181, 0.3); /* Optional focus glow */
+}
+
+.form-input::placeholder {
+  color: #888; /* Lighter color for placeholder */
+  font-style: italic;
+}
+
+.close-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: #f44336; /* Red color for the "X" */
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.close-btn:hover {
+  color: #d32f2f; /* Darker red on hover */
+}
+
+.close-btn:focus {
+  outline: none;
+}
+/* .example-box {
+  padding: 8px;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+} */
+
+.placeholder {
+  text-align: center;
+  font-size: 16px;
+  color: #aaa;
+  margin-top: 80px;
+}
+
+.form-input {
+  margin-left: 8px;
+  padding: 4px;
+  font-size: 14px;
+  flex: 1;
+}
